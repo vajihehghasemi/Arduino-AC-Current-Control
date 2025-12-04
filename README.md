@@ -1,4 +1,19 @@
+# Arduino AC Current Control
 
+Control AC 230V AC devices using a TRIAC and Arduino for dimming or power regulation.
+
+## Description
+This project demonstrates how to control AC current to appliances using a TRIAC and Arduino. It allows you to dim lights,heat or regulate power safely.
+
+**⚠️ Warning:** AC 230V is dangerous. Make sure to follow safety precautions.
+
+## Components
+- Arduino (Uno, Nano, etc.)
+- TRIAC (T1635H-6T)
+- Opto-isolator ( MOC3021)
+- AC load (heater, etc.)
+- Resistors, Diode, Capacitors as required
+- Breadboard / PCB and wires
 
 ## Code
 Upload the Arduino sketch in the `Arduino` folder:
